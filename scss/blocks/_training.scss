@@ -1,0 +1,55 @@
+.training{
+  padding-top:68px;
+  padding-bottom: 140px;
+}
+
+.training__list{
+  display: flex;
+  align-items: flex-start;
+  list-style: none;
+}
+
+.training__item{
+  width: 280px;
+}
+
+.training__item + .training__item{
+  margin-left: 80px;
+}
+
+.training__title{
+font-weight: bold;
+font-size: 18px;
+line-height: 27px;
+text-transform: uppercase;
+color: #222222;
+margin-bottom: 30px;
+}
+
+.training__text{
+font-size: 15px;
+line-height: 24px;
+color: #333333;
+margin-bottom: 20px;
+}
+
+.training__link-info{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #EA625C;
+}
+
+.training__link-info:hover> .training__line{
+  width: 60px;
+}
+
+.training__line{
+width: 40px;
+border: 2px solid #EA625C;
+background-color: #EA625C ;
+margin-right: 10px;
+}

@@ -1,0 +1,52 @@
+.hero{
+  background-image: url("../images/intro-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 650px) calc(50% + 10px) ;
+  padding-top: 91px;
+  padding-bottom: 185px;
+}
+
+
+.hero__info{
+width: 490px;
+}
+
+.hero__title{
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 60px;
+  color: #000000;
+  margin: 30px 0px;
+}
+
+.hero__text{
+  line-height: 24px;
+color: #777777;
+margin-bottom: 40px;
+border-left: 3px solid #888888;
+padding-left: 40px;
+}
+
+.link{
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #EA625C;
+  padding: 12px 0;
+  text-decoration: none;
+}
+
+.link:hover{
+  opacity: 0.8;
+}
+
+.hero__link{
+  padding: 12px 39px;
+}
+
+hr{
+  margin: 0;
+}

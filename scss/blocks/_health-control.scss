@@ -1,0 +1,40 @@
+.health-control{
+  background-image: url("../../images/runners.jpg");
+  background-repeat: no-repeat;
+ background-size: cover;
+ padding: 240px 0;
+}
+
+.health-control__inner{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.health-control__info{
+  width: 490px;
+}
+
+.health-control__title{
+font-weight: bold;
+font-size: 50px;
+line-height: 60px;
+color: #FFFFFF;
+margin: 0;
+}
+
+.health-control__text{
+  line-height: 24px;
+color: #FFFFFF;
+border-left: 3px solid #FFFFFF;
+margin: 30px 0;
+padding-left: 40px;
+}
+
+.health-control__link{
+  padding: 15px 46px;
+  }
+
+  .health-control__link:hover{
+    opacity: 0.9;
+  }
